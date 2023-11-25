@@ -2,7 +2,7 @@
 list_caller *add_node_index(list_caller **head, int data, int index)
 {
     int i;
-    list_caller *new = (list_caller *)malloc(sizeof(list_caller *));
+    list_caller *new = (list_caller *)malloc(sizeof(list_caller));
     if (new == NULL) {
         fprintf(stderr, "Malloc error");
         exit(EXIT_FAILURE);

@@ -1,1 +1,0 @@
-This folder will hold all the data structure operations for linked lists in C language

@@ -1,4 +1,5 @@
 #include "header.h"
+/*This works as a Queue because it's FIFO*/
 list_caller *add_node_end(list_caller **head, int data) {
     list_caller *new = (list_caller *) malloc(sizeof(list_caller));
     if (new == NULL) {
